@@ -45,5 +45,6 @@ public class MainActivity extends AppCompatActivity {
         Uri uri = Uri.parse("/Downloads/");
         intent.setDataAndType(uri, "*/*");
         startActivity(intent);
+        Toast.makeText(this,"Browser Opened", Toast.LENGTH_SHORT).show();
     }
 }
